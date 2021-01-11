@@ -1,0 +1,90 @@
+* {box-sizing: border-box;}
+
+.icon {
+	padding: 15px;
+	color:black;
+	background:grey;
+	min-width: 50px;
+	text-align: center;
+	display: inline;
+  }
+
+body{
+	font: normal 16px Arial, Helvetica, sans-serif;
+	line-height:1.6em;
+	padding-top: 20px;
+}
+
+#main-container{
+	width: 35%;
+	padding: 0px;
+}
+#loginform h1,#signupform h1{
+	margin: 0px 10px;
+	padding: 10px;
+	color: white;
+}
+
+#login-button{
+	margin: 0px;
+	padding-bottom: 25px;
+	text-align: center;
+	width:100%;
+}
+
+#login:focus {
+	outline: none;	
+}
+
+#signup:focus {
+	outline: none;	
+}
+
+#login
+{
+	border-width:10px 10px 0px 10px;
+	border-color:rgb(135, 26, 207);
+	border-radius:5px;
+	background-color:rgb(135, 26, 207);;
+	float:left;	 
+}
+
+#signup{
+	border-width:10px 10px 0px 0px;
+	background-color:grey;
+	border-radius: 5px;
+	float:left;
+}
+
+.login-btn{
+	width:50%;
+	font-weight:bolder;
+	box-sizing: border-box;
+}
+
+.login-form{
+	width: 100%;
+	padding: 20px 20px;
+}
+
+.login-form .form-group{
+	padding-bottom:10px;
+}
+
+.login-form label{	
+	color: rgba(41, 182, 135, 0.76);
+	font-weight:bolder;
+	display:block;
+}
+
+.login-form input[type="text"],input[type="email"],input[type="password"], .login-form textarea
+{
+	width:80%;
+	padding: 10px;
+}
+
+.login-form input[type="date"]{
+	padding:8px;
+	width:50%;
+}
+

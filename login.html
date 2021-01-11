@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<div id="main-container" class="container-fluid">
+		<div id="login-button">
+			<button class="login-btn" id="login">Login</button> 
+			<button class="login-btn" id="signup">Sign Up</button> 
+		</div>
+		
+		<div id="loginform">
+			<h1>Welcome Back</h1>
+			<form class="login-form">
+				<div class="form-group">
+					<span class="fa fa-user icon"></span>
+					<input type="email" name="email" placeholder='Username/email '>
+				</div>
+				<div class="form-group">
+					<i class="fas fa-lock icon"> </i> 	
+					<input type="password" name="password" placeholder="password">
+				</div>
+				<input class="login-btn" type="submit" value="Login" name="">
+			</form>
+		</div>
+		
+		<div id="signupform">
+			<form class="login-form">
+				<h1>Join Us</h1>
+				<div class="form-group">
+					<label>Name</label>
+					<input type="text" name="name">
+				</div>
+				<div class="form-group">
+					<label>Date of Birth</label>
+					<input type="date" name="dob">
+				</div>
+				<div class="form-group">
+					<label>Address</label>
+					<textarea name=address></textarea>
+				</div>
+				<div class="form-group">
+					<label>Phone</label>
+					<input type="text" name="phone">
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" name="email">
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="password" name="password">
+				</div>
+				<input class="login-btn" type="submit" value="Submit" name="">
+
+			</form>
+		</div>
+</div>
+
+<script src="js/login.js"></script>
+</body>
+</html>
